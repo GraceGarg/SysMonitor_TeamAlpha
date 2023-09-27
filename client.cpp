@@ -196,9 +196,9 @@ int main() {
  
 
         // Concatenate the data into a single string
-        std::string clientData = "Client Data:\n" +
-        			 getSystemName() + "\n" +
-                                 ramUsage + "\n" +
+        std::string clientData = "\n" +
+        			            getSystemName() + "\n" +
+                                ramUsage + "\n" +
                                  hddUtilization + "\n" +
                                  networkStatus + "\n" +
                                  cpuUtilization + "\n" +
