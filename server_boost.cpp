@@ -3,6 +3,8 @@
 #include <thread>
 #include <vector>
 
+using namespace std;
+
 using namespace boost::asio;
 using ip::tcp;
 
@@ -24,7 +26,7 @@ void handleClient(tcp::socket clientSocket) {
             
             // Print the received data to the server console
         buffer[bytesRead] = '\0'; // Null-terminate the received data
-        std::cout << std::endl<< "Received Data from Client: " << buffer << std::endl;
+        cout << endl<< "Received Data from Client: " << buffer << endl;
 
 
             // Process data received from the client
@@ -33,8 +35,8 @@ void handleClient(tcp::socket clientSocket) {
             // Send a response back to the client (if needed)
             // boost::asio::write(clientSocket, boost::asio::buffer(response_data, response_length));
         }
-    } catch (std::exception &e) {
-        std::cerr << "Error: " << e.what() << std::endl;
+    } catch (exception &e) {
+        cerr << "Error: " << e.what() << endl;
     }
 }
 
@@ -43,20 +45,20 @@ int main() {
 
     tcp::acceptor acceptor(ioContext, tcp::endpoint(tcp::v4(), 12345)); // Replace with the desired port
 
-    std::vector<std::thread> clientThreads; // Store client threads
+    vector<thread> clientThreads; // Store client threads
 
     while (true) {
         tcp::socket clientSocket(ioContext);
         acceptor.accept(clientSocket);
         
-        std::cout << "Server is listening on port 12345..." << std::endl;
+        cout << "Server is listening on port 12345..." << endl;
 
         // Create a new thread to handle the client connection
-        clientThreads.emplace_back(handleClient, std::move(clientSocket));
+        clientThreads.emplace_back(handleClient, move(clientSocket));
     }
 
     // Wait for all client threads to finish
-    for (std::thread &t : clientThreads) {
+    for (thread &t : clientThreads) {
         t.join();
     }
 

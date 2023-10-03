@@ -10,22 +10,24 @@
 #include <ctime>
 #include<vector>
 
+using namespace std;
+
  
 
 // Function to read and parse RAM usage from /proc/meminfo
-std::string getRamUsage() {
-    std::ifstream memInfoFile("/proc/meminfo");
+string getRamUsage() {
+    ifstream memInfoFile("/proc/meminfo");
     if (!memInfoFile.is_open()) {
         return "Failed to read RAM usage";
     }
 
  
 
-    std::string line;
+    string line;
     long totalMem = 0, freeMem = 0;
-    while (std::getline(memInfoFile, line)) {
-        std::istringstream ss(line);
-        std::string field;
+    while (getline(memInfoFile, line)) {
+        istringstream ss(line);
+        string field;
         long value;
         ss >> field >> value;
 
@@ -42,33 +44,33 @@ std::string getRamUsage() {
 
     long usedMem = totalMem - freeMem;
     double ramUsage = static_cast<double>(usedMem) / totalMem * 100.0;
-    return "RAM Usage: " + std::to_string(ramUsage) + "%";
+    return "RAM Usage: " + to_string(ramUsage) + "%";
 }
 
  // Function to get system hostname 
-std::string getSystemName() { 
+string getSystemName() { 
     char hostname[1024]; 
     if (gethostname(hostname, sizeof(hostname)) == -1) { 
         return "Failed to get system name"; 
     } 
 
-    return "System Name: " + std::string(hostname); 
+    return "System Name: " + string(hostname); 
 } 
 
 // Function to read and parse HDD utilization from /proc/mounts
-std::string getHddUtilization() {
-    std::ifstream mountsFile("/proc/mounts");
+string getHddUtilization() {
+    ifstream mountsFile("/proc/mounts");
     if (!mountsFile.is_open()) {
         return "Failed to read HDD utilization";
     }
 
  
 
-    std:: vector<std::string> mountedDevices;
-    std::string line;
-    while (std::getline(mountsFile, line)) {
-        std::istringstream ss(line);
-        std::string device, mountPoint;
+     vector<string> mountedDevices;
+    string line;
+    while (getline(mountsFile, line)) {
+        istringstream ss(line);
+        string device, mountPoint;
         ss >> device >> mountPoint;
         if (!device.empty() && device != "none" && device != "rootfs") {
             mountedDevices.push_back(mountPoint);
@@ -78,8 +80,8 @@ std::string getHddUtilization() {
  
 
     long totalHdd = 0, freeHdd = 0;
-    for (const std::string &device : mountedDevices) {
-        std::string command = "df -h " + device + " | awk 'NR==2 {print $5}'";
+    for (const string &device : mountedDevices) {
+        string command = "df -h " + device + " | awk 'NR==2 {print $5}'";
         FILE *pipe = popen(command.c_str(), "r");
         if (pipe) {
             char buffer[32];
@@ -103,12 +105,12 @@ std::string getHddUtilization() {
  
 
     double hddUtilization = static_cast<double>(freeHdd) / totalHdd * 100.0;
-    return "HDD Utilization: " + std::to_string(hddUtilization) + "%";
+    return "HDD Utilization: " + to_string(hddUtilization) + "%";
 }
 
 
-std::string getIdleTime() {
-    std::ifstream uptimeFile("/proc/uptime");
+string getIdleTime() {
+    ifstream uptimeFile("/proc/uptime");
     if (!uptimeFile.is_open()) {
         return "Failed to read idle time";
     }
@@ -116,13 +118,13 @@ std::string getIdleTime() {
     double uptime, idleTime;
     uptimeFile >> uptime >> idleTime;
 
-    return "Idle Time: " + std::to_string(idleTime) + " seconds";
+    return "Idle Time: " + to_string(idleTime) + " seconds";
 }
  
 
 // Function to check network connectivity
 bool isNetworkConnected() {
-    std::string command = "ping -c 1 10.11.244.200"; // Replace with a known server or IP address
+    string command = "ping -c 1 10.11.244.212"; // Replace with a known server or IP address
     int exitCode = system(command.c_str());
     return (exitCode == 0); // 0 indicates successful ping
 }
@@ -130,18 +132,18 @@ bool isNetworkConnected() {
  
 
 // Function to read and parse CPU utilization from /proc/stat
-std::string getCpuUtilization() {
-    std::ifstream statFile("/proc/stat");
+string getCpuUtilization() {
+    ifstream statFile("/proc/stat");
     if (!statFile.is_open()) {
         return "Failed to read CPU utilization";
     }
 
  
 
-    std::string line;
-    std::getline(statFile, line);
-    std::istringstream ss(line);
-    std::string cpuLabel;
+    string line;
+    getline(statFile, line);
+    istringstream ss(line);
+    string cpuLabel;
     long user, nice, system, idle, iowait, irq, softirq, steal, guest, guest_nice;
     ss >> cpuLabel >> user >> nice >> system >> idle >> iowait >> irq >> softirq >> steal >> guest >> guest_nice;
 
@@ -153,7 +155,7 @@ std::string getCpuUtilization() {
  
 
     double utilization = 100.0 * (totalTime - idleTime) / totalTime;
-    return "CPU Utilization: " + std::to_string(utilization) + "%";
+    return "CPU Utilization: " + to_string(utilization) + "%";
 }
 
  
@@ -172,7 +174,7 @@ int main() {
     struct sockaddr_in serverAddr;
     serverAddr.sin_family = AF_INET;
     serverAddr.sin_port = htons(12345); // Replace with the server's port
-    serverAddr.sin_addr.s_addr = inet_addr("10.11.244.200"); // Replace with the server's IP address
+    serverAddr.sin_addr.s_addr = inet_addr("10.11.244.212"); // Replace with the server's IP address
 
  
 
@@ -187,16 +189,16 @@ int main() {
     // Create a loop to continuously send updates to the server
     while (true) {
         // Get RAM usage, HDD utilization, network status, CPU utilization, and idle time
-        std::string ramUsage = getRamUsage();
-        std::string hddUtilization = getHddUtilization();
-        std::string networkStatus = isNetworkConnected() ? "Connected" : "Not Connected";
-        std::string cpuUtilization = getCpuUtilization();
-        std::string idleTime = getIdleTime();
+        string ramUsage = getRamUsage();
+        string hddUtilization = getHddUtilization();
+        string networkStatus = isNetworkConnected() ? "Connected" : "Not Connected";
+        string cpuUtilization = getCpuUtilization();
+        string idleTime = getIdleTime();
 
  
 
         // Concatenate the data into a single string
-        std::string clientData = "\n" +
+        string clientData = "\n" +
         			            getSystemName() + "\n" +
                                 ramUsage + "\n" +
                                  hddUtilization + "\n" +
