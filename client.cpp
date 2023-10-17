@@ -265,13 +265,13 @@ class dataHandler{
  
 
         // Concatenate the data into a single string
-        clientData =    getMacAddress() + " "+  
-                        systemName + " " +
-                        getCurrentDateTimeAsString() + " "+
-                        ramUsage + " " +
-                        cpuUtilization + " "+
-                        idleTime + " "+
-                        hddUtilization + " "+
+        clientData =    getMacAddress() + " "+ "\n" + 
+                        systemName + " " + "\n" +
+                        getCurrentDateTimeAsString() + " "+ "\n" +
+                        ramUsage + " " + "\n" +
+                        cpuUtilization + " "+ "\n" +
+                        idleTime + " "+ "\n" +
+                        hddUtilization + " "+ "\n" +
                         networkStatus;
                        
         return clientData;
