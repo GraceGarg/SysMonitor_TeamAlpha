@@ -1,0 +1,3 @@
+/home/harshit/server_cmake/build/CMakeFiles/server_cmake.dir
+/home/harshit/server_cmake/build/CMakeFiles/edit_cache.dir
+/home/harshit/server_cmake/build/CMakeFiles/rebuild_cache.dir

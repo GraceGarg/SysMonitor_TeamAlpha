@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/server_cmake.dir/src/main.cpp.o CMakeFiles/server_cmake.dir/src/DatabaseConnector.cpp.o CMakeFiles/server_cmake.dir/src/DbStructure.cpp.o CMakeFiles/server_cmake.dir/src/handleclient.cpp.o CMakeFiles/server_cmake.dir/src/CSVWriter.cpp.o CMakeFiles/server_cmake.dir/src/DatabaseHandler.cpp.o -o server_cmake  -lmysqlcppconn 
