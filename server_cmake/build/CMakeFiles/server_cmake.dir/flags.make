@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/harshit/server_cmake/h
+CXX_INCLUDES = -I/home/vboxuser/SysMonitor_TeamAlpha/server_cmake/h
 
 CXX_FLAGS = 
 

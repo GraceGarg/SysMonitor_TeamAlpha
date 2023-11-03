@@ -1,6 +1,6 @@
 CMakeFiles/server_cmake.dir/src/main.cpp.o: \
- /home/harshit/server_cmake/src/main.cpp /usr/include/stdc-predef.h \
- /usr/include/c++/11/iostream \
+ /home/vboxuser/SysMonitor_TeamAlpha/server_cmake/src/main.cpp \
+ /usr/include/stdc-predef.h /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -1111,7 +1111,7 @@ CMakeFiles/server_cmake.dir/src/main.cpp.o: \
  /usr/include/boost/asio/write_at.hpp \
  /usr/include/boost/asio/impl/write_at.hpp /usr/include/c++/11/thread \
  /usr/include/c++/11/bits/this_thread_sleep.h \
- /home/harshit/server_cmake/h/DatabaseConnector.h \
+ /home/vboxuser/SysMonitor_TeamAlpha/server_cmake/h/DatabaseConnector.h \
  /usr/include/mysql_driver.h /usr/include/boost/scoped_ptr.hpp \
  /usr/include/boost/smart_ptr/scoped_ptr.hpp \
  /usr/include/cppconn/driver.h /usr/include/cppconn/connection.h \
@@ -1120,5 +1120,5 @@ CMakeFiles/server_cmake.dir/src/main.cpp.o: \
  /usr/include/c++/11/list /usr/include/c++/11/bits/stl_list.h \
  /usr/include/c++/11/bits/list.tcc /usr/include/cppconn/exception.h \
  /usr/include/cppconn/connection.h \
- /home/harshit/server_cmake/h/DbStructure.h \
- /home/harshit/server_cmake/h/handleclient.h
+ /home/vboxuser/SysMonitor_TeamAlpha/server_cmake/h/DbStructure.h \
+ /home/vboxuser/SysMonitor_TeamAlpha/server_cmake/h/handleclient.h

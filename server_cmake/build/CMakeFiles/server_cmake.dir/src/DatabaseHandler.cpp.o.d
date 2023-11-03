@@ -1,7 +1,7 @@
 CMakeFiles/server_cmake.dir/src/DatabaseHandler.cpp.o: \
- /home/harshit/server_cmake/src/DatabaseHandler.cpp \
+ /home/vboxuser/SysMonitor_TeamAlpha/server_cmake/src/DatabaseHandler.cpp \
  /usr/include/stdc-predef.h \
- /home/harshit/server_cmake/h/DatabaseHandler.h \
+ /home/vboxuser/SysMonitor_TeamAlpha/server_cmake/h/DatabaseHandler.h \
  /usr/include/c++/11/string \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \

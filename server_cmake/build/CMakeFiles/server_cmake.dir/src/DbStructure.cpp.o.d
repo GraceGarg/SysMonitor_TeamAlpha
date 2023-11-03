@@ -1,5 +1,5 @@
 CMakeFiles/server_cmake.dir/src/DbStructure.cpp.o: \
- /home/harshit/server_cmake/src/DbStructure.cpp \
+ /home/vboxuser/SysMonitor_TeamAlpha/server_cmake/src/DbStructure.cpp \
  /usr/include/stdc-predef.h /usr/include/cppconn/driver.h \
  /usr/include/cppconn/connection.h /usr/include/c++/11/map \
  /usr/include/c++/11/bits/stl_tree.h \
@@ -196,8 +196,8 @@ CMakeFiles/server_cmake.dir/src/DbStructure.cpp.o: \
  /usr/include/cppconn/resultset.h \
  /usr/include/cppconn/resultset_metadata.h \
  /usr/include/cppconn/datatype.h \
- /home/harshit/server_cmake/h/DbStructure.h /usr/include/mysql_driver.h \
- /usr/include/boost/scoped_ptr.hpp \
+ /home/vboxuser/SysMonitor_TeamAlpha/server_cmake/h/DbStructure.h \
+ /usr/include/mysql_driver.h /usr/include/boost/scoped_ptr.hpp \
  /usr/include/boost/smart_ptr/scoped_ptr.hpp \
  /usr/include/boost/config.hpp /usr/include/boost/config/user.hpp \
  /usr/include/boost/config/detail/select_compiler_config.hpp \

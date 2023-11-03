@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/harshit/server_cmake
+CMAKE_SOURCE_DIR = /home/vboxuser/SysMonitor_TeamAlpha/server_cmake
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/harshit/server_cmake/build
+CMAKE_BINARY_DIR = /home/vboxuser/SysMonitor_TeamAlpha/server_cmake/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/server_cmake.dir/depend.make
@@ -72,86 +72,86 @@ include CMakeFiles/server_cmake.dir/flags.make
 CMakeFiles/server_cmake.dir/src/main.cpp.o: CMakeFiles/server_cmake.dir/flags.make
 CMakeFiles/server_cmake.dir/src/main.cpp.o: ../src/main.cpp
 CMakeFiles/server_cmake.dir/src/main.cpp.o: CMakeFiles/server_cmake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/harshit/server_cmake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/server_cmake.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/server_cmake.dir/src/main.cpp.o -MF CMakeFiles/server_cmake.dir/src/main.cpp.o.d -o CMakeFiles/server_cmake.dir/src/main.cpp.o -c /home/harshit/server_cmake/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vboxuser/SysMonitor_TeamAlpha/server_cmake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/server_cmake.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/server_cmake.dir/src/main.cpp.o -MF CMakeFiles/server_cmake.dir/src/main.cpp.o.d -o CMakeFiles/server_cmake.dir/src/main.cpp.o -c /home/vboxuser/SysMonitor_TeamAlpha/server_cmake/src/main.cpp
 
 CMakeFiles/server_cmake.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/server_cmake.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/harshit/server_cmake/src/main.cpp > CMakeFiles/server_cmake.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vboxuser/SysMonitor_TeamAlpha/server_cmake/src/main.cpp > CMakeFiles/server_cmake.dir/src/main.cpp.i
 
 CMakeFiles/server_cmake.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/server_cmake.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/harshit/server_cmake/src/main.cpp -o CMakeFiles/server_cmake.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vboxuser/SysMonitor_TeamAlpha/server_cmake/src/main.cpp -o CMakeFiles/server_cmake.dir/src/main.cpp.s
 
 CMakeFiles/server_cmake.dir/src/DatabaseConnector.cpp.o: CMakeFiles/server_cmake.dir/flags.make
 CMakeFiles/server_cmake.dir/src/DatabaseConnector.cpp.o: ../src/DatabaseConnector.cpp
 CMakeFiles/server_cmake.dir/src/DatabaseConnector.cpp.o: CMakeFiles/server_cmake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/harshit/server_cmake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/server_cmake.dir/src/DatabaseConnector.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/server_cmake.dir/src/DatabaseConnector.cpp.o -MF CMakeFiles/server_cmake.dir/src/DatabaseConnector.cpp.o.d -o CMakeFiles/server_cmake.dir/src/DatabaseConnector.cpp.o -c /home/harshit/server_cmake/src/DatabaseConnector.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vboxuser/SysMonitor_TeamAlpha/server_cmake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/server_cmake.dir/src/DatabaseConnector.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/server_cmake.dir/src/DatabaseConnector.cpp.o -MF CMakeFiles/server_cmake.dir/src/DatabaseConnector.cpp.o.d -o CMakeFiles/server_cmake.dir/src/DatabaseConnector.cpp.o -c /home/vboxuser/SysMonitor_TeamAlpha/server_cmake/src/DatabaseConnector.cpp
 
 CMakeFiles/server_cmake.dir/src/DatabaseConnector.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/server_cmake.dir/src/DatabaseConnector.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/harshit/server_cmake/src/DatabaseConnector.cpp > CMakeFiles/server_cmake.dir/src/DatabaseConnector.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vboxuser/SysMonitor_TeamAlpha/server_cmake/src/DatabaseConnector.cpp > CMakeFiles/server_cmake.dir/src/DatabaseConnector.cpp.i
 
 CMakeFiles/server_cmake.dir/src/DatabaseConnector.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/server_cmake.dir/src/DatabaseConnector.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/harshit/server_cmake/src/DatabaseConnector.cpp -o CMakeFiles/server_cmake.dir/src/DatabaseConnector.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vboxuser/SysMonitor_TeamAlpha/server_cmake/src/DatabaseConnector.cpp -o CMakeFiles/server_cmake.dir/src/DatabaseConnector.cpp.s
 
 CMakeFiles/server_cmake.dir/src/DbStructure.cpp.o: CMakeFiles/server_cmake.dir/flags.make
 CMakeFiles/server_cmake.dir/src/DbStructure.cpp.o: ../src/DbStructure.cpp
 CMakeFiles/server_cmake.dir/src/DbStructure.cpp.o: CMakeFiles/server_cmake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/harshit/server_cmake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/server_cmake.dir/src/DbStructure.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/server_cmake.dir/src/DbStructure.cpp.o -MF CMakeFiles/server_cmake.dir/src/DbStructure.cpp.o.d -o CMakeFiles/server_cmake.dir/src/DbStructure.cpp.o -c /home/harshit/server_cmake/src/DbStructure.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vboxuser/SysMonitor_TeamAlpha/server_cmake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/server_cmake.dir/src/DbStructure.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/server_cmake.dir/src/DbStructure.cpp.o -MF CMakeFiles/server_cmake.dir/src/DbStructure.cpp.o.d -o CMakeFiles/server_cmake.dir/src/DbStructure.cpp.o -c /home/vboxuser/SysMonitor_TeamAlpha/server_cmake/src/DbStructure.cpp
 
 CMakeFiles/server_cmake.dir/src/DbStructure.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/server_cmake.dir/src/DbStructure.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/harshit/server_cmake/src/DbStructure.cpp > CMakeFiles/server_cmake.dir/src/DbStructure.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vboxuser/SysMonitor_TeamAlpha/server_cmake/src/DbStructure.cpp > CMakeFiles/server_cmake.dir/src/DbStructure.cpp.i
 
 CMakeFiles/server_cmake.dir/src/DbStructure.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/server_cmake.dir/src/DbStructure.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/harshit/server_cmake/src/DbStructure.cpp -o CMakeFiles/server_cmake.dir/src/DbStructure.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vboxuser/SysMonitor_TeamAlpha/server_cmake/src/DbStructure.cpp -o CMakeFiles/server_cmake.dir/src/DbStructure.cpp.s
 
 CMakeFiles/server_cmake.dir/src/handleclient.cpp.o: CMakeFiles/server_cmake.dir/flags.make
 CMakeFiles/server_cmake.dir/src/handleclient.cpp.o: ../src/handleclient.cpp
 CMakeFiles/server_cmake.dir/src/handleclient.cpp.o: CMakeFiles/server_cmake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/harshit/server_cmake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/server_cmake.dir/src/handleclient.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/server_cmake.dir/src/handleclient.cpp.o -MF CMakeFiles/server_cmake.dir/src/handleclient.cpp.o.d -o CMakeFiles/server_cmake.dir/src/handleclient.cpp.o -c /home/harshit/server_cmake/src/handleclient.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vboxuser/SysMonitor_TeamAlpha/server_cmake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/server_cmake.dir/src/handleclient.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/server_cmake.dir/src/handleclient.cpp.o -MF CMakeFiles/server_cmake.dir/src/handleclient.cpp.o.d -o CMakeFiles/server_cmake.dir/src/handleclient.cpp.o -c /home/vboxuser/SysMonitor_TeamAlpha/server_cmake/src/handleclient.cpp
 
 CMakeFiles/server_cmake.dir/src/handleclient.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/server_cmake.dir/src/handleclient.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/harshit/server_cmake/src/handleclient.cpp > CMakeFiles/server_cmake.dir/src/handleclient.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vboxuser/SysMonitor_TeamAlpha/server_cmake/src/handleclient.cpp > CMakeFiles/server_cmake.dir/src/handleclient.cpp.i
 
 CMakeFiles/server_cmake.dir/src/handleclient.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/server_cmake.dir/src/handleclient.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/harshit/server_cmake/src/handleclient.cpp -o CMakeFiles/server_cmake.dir/src/handleclient.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vboxuser/SysMonitor_TeamAlpha/server_cmake/src/handleclient.cpp -o CMakeFiles/server_cmake.dir/src/handleclient.cpp.s
 
 CMakeFiles/server_cmake.dir/src/CSVWriter.cpp.o: CMakeFiles/server_cmake.dir/flags.make
 CMakeFiles/server_cmake.dir/src/CSVWriter.cpp.o: ../src/CSVWriter.cpp
 CMakeFiles/server_cmake.dir/src/CSVWriter.cpp.o: CMakeFiles/server_cmake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/harshit/server_cmake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/server_cmake.dir/src/CSVWriter.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/server_cmake.dir/src/CSVWriter.cpp.o -MF CMakeFiles/server_cmake.dir/src/CSVWriter.cpp.o.d -o CMakeFiles/server_cmake.dir/src/CSVWriter.cpp.o -c /home/harshit/server_cmake/src/CSVWriter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vboxuser/SysMonitor_TeamAlpha/server_cmake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/server_cmake.dir/src/CSVWriter.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/server_cmake.dir/src/CSVWriter.cpp.o -MF CMakeFiles/server_cmake.dir/src/CSVWriter.cpp.o.d -o CMakeFiles/server_cmake.dir/src/CSVWriter.cpp.o -c /home/vboxuser/SysMonitor_TeamAlpha/server_cmake/src/CSVWriter.cpp
 
 CMakeFiles/server_cmake.dir/src/CSVWriter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/server_cmake.dir/src/CSVWriter.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/harshit/server_cmake/src/CSVWriter.cpp > CMakeFiles/server_cmake.dir/src/CSVWriter.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vboxuser/SysMonitor_TeamAlpha/server_cmake/src/CSVWriter.cpp > CMakeFiles/server_cmake.dir/src/CSVWriter.cpp.i
 
 CMakeFiles/server_cmake.dir/src/CSVWriter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/server_cmake.dir/src/CSVWriter.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/harshit/server_cmake/src/CSVWriter.cpp -o CMakeFiles/server_cmake.dir/src/CSVWriter.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vboxuser/SysMonitor_TeamAlpha/server_cmake/src/CSVWriter.cpp -o CMakeFiles/server_cmake.dir/src/CSVWriter.cpp.s
 
 CMakeFiles/server_cmake.dir/src/DatabaseHandler.cpp.o: CMakeFiles/server_cmake.dir/flags.make
 CMakeFiles/server_cmake.dir/src/DatabaseHandler.cpp.o: ../src/DatabaseHandler.cpp
 CMakeFiles/server_cmake.dir/src/DatabaseHandler.cpp.o: CMakeFiles/server_cmake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/harshit/server_cmake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/server_cmake.dir/src/DatabaseHandler.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/server_cmake.dir/src/DatabaseHandler.cpp.o -MF CMakeFiles/server_cmake.dir/src/DatabaseHandler.cpp.o.d -o CMakeFiles/server_cmake.dir/src/DatabaseHandler.cpp.o -c /home/harshit/server_cmake/src/DatabaseHandler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vboxuser/SysMonitor_TeamAlpha/server_cmake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/server_cmake.dir/src/DatabaseHandler.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/server_cmake.dir/src/DatabaseHandler.cpp.o -MF CMakeFiles/server_cmake.dir/src/DatabaseHandler.cpp.o.d -o CMakeFiles/server_cmake.dir/src/DatabaseHandler.cpp.o -c /home/vboxuser/SysMonitor_TeamAlpha/server_cmake/src/DatabaseHandler.cpp
 
 CMakeFiles/server_cmake.dir/src/DatabaseHandler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/server_cmake.dir/src/DatabaseHandler.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/harshit/server_cmake/src/DatabaseHandler.cpp > CMakeFiles/server_cmake.dir/src/DatabaseHandler.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vboxuser/SysMonitor_TeamAlpha/server_cmake/src/DatabaseHandler.cpp > CMakeFiles/server_cmake.dir/src/DatabaseHandler.cpp.i
 
 CMakeFiles/server_cmake.dir/src/DatabaseHandler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/server_cmake.dir/src/DatabaseHandler.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/harshit/server_cmake/src/DatabaseHandler.cpp -o CMakeFiles/server_cmake.dir/src/DatabaseHandler.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vboxuser/SysMonitor_TeamAlpha/server_cmake/src/DatabaseHandler.cpp -o CMakeFiles/server_cmake.dir/src/DatabaseHandler.cpp.s
 
 # Object files for target server_cmake
 server_cmake_OBJECTS = \
@@ -173,7 +173,7 @@ server_cmake: CMakeFiles/server_cmake.dir/src/CSVWriter.cpp.o
 server_cmake: CMakeFiles/server_cmake.dir/src/DatabaseHandler.cpp.o
 server_cmake: CMakeFiles/server_cmake.dir/build.make
 server_cmake: CMakeFiles/server_cmake.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/harshit/server_cmake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable server_cmake"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/vboxuser/SysMonitor_TeamAlpha/server_cmake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable server_cmake"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/server_cmake.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -185,6 +185,6 @@ CMakeFiles/server_cmake.dir/clean:
 .PHONY : CMakeFiles/server_cmake.dir/clean
 
 CMakeFiles/server_cmake.dir/depend:
-	cd /home/harshit/server_cmake/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/harshit/server_cmake /home/harshit/server_cmake /home/harshit/server_cmake/build /home/harshit/server_cmake/build /home/harshit/server_cmake/build/CMakeFiles/server_cmake.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/vboxuser/SysMonitor_TeamAlpha/server_cmake/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vboxuser/SysMonitor_TeamAlpha/server_cmake /home/vboxuser/SysMonitor_TeamAlpha/server_cmake /home/vboxuser/SysMonitor_TeamAlpha/server_cmake/build /home/vboxuser/SysMonitor_TeamAlpha/server_cmake/build /home/vboxuser/SysMonitor_TeamAlpha/server_cmake/build/CMakeFiles/server_cmake.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/server_cmake.dir/depend
 

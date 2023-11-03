@@ -1,6 +1,8 @@
 CMakeFiles/client_cmake.dir/src/Logger.cpp.o: \
- /home/harshit/Client_cmake/src/Logger.cpp /usr/include/stdc-predef.h \
- /home/harshit/Client_cmake/src/Logger.h /usr/include/c++/11/string \
+ /home/vboxuser/SysMonitor_TeamAlpha/Client_cmake/src/Logger.cpp \
+ /usr/include/stdc-predef.h \
+ /home/vboxuser/SysMonitor_TeamAlpha/Client_cmake/src/Logger.h \
+ /usr/include/c++/11/string \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -126,9 +128,10 @@ CMakeFiles/client_cmake.dir/src/Logger.cpp.o: \
  /usr/include/c++/11/bits/functional_hash.h \
  /usr/include/c++/11/bits/hash_bytes.h \
  /usr/include/c++/11/bits/basic_string.tcc \
- /home/harshit/Client_cmake/src/main.h /usr/include/c++/11/iostream \
- /usr/include/c++/11/ostream /usr/include/c++/11/ios \
- /usr/include/c++/11/exception /usr/include/c++/11/bits/exception_ptr.h \
+ /home/vboxuser/SysMonitor_TeamAlpha/Client_cmake/src/main.h \
+ /usr/include/c++/11/iostream /usr/include/c++/11/ostream \
+ /usr/include/c++/11/ios /usr/include/c++/11/exception \
+ /usr/include/c++/11/bits/exception_ptr.h \
  /usr/include/c++/11/bits/cxxabi_init_exception.h \
  /usr/include/c++/11/typeinfo /usr/include/c++/11/bits/nested_exception.h \
  /usr/include/c++/11/bits/ios_base.h \

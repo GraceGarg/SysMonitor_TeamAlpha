@@ -8,10 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/harshit/Client_cmake/src/Logger.cpp" "CMakeFiles/client_cmake.dir/src/Logger.cpp.o" "gcc" "CMakeFiles/client_cmake.dir/src/Logger.cpp.o.d"
-  "/home/harshit/Client_cmake/src/dataHandler.cpp" "CMakeFiles/client_cmake.dir/src/dataHandler.cpp.o" "gcc" "CMakeFiles/client_cmake.dir/src/dataHandler.cpp.o.d"
-  "/home/harshit/Client_cmake/src/main.cpp" "CMakeFiles/client_cmake.dir/src/main.cpp.o" "gcc" "CMakeFiles/client_cmake.dir/src/main.cpp.o.d"
-  "/home/harshit/Client_cmake/src/socketHandler.cpp" "CMakeFiles/client_cmake.dir/src/socketHandler.cpp.o" "gcc" "CMakeFiles/client_cmake.dir/src/socketHandler.cpp.o.d"
+  "/home/vboxuser/SysMonitor_TeamAlpha/Client_cmake/src/Logger.cpp" "CMakeFiles/client_cmake.dir/src/Logger.cpp.o" "gcc" "CMakeFiles/client_cmake.dir/src/Logger.cpp.o.d"
+  "/home/vboxuser/SysMonitor_TeamAlpha/Client_cmake/src/dataHandler.cpp" "CMakeFiles/client_cmake.dir/src/dataHandler.cpp.o" "gcc" "CMakeFiles/client_cmake.dir/src/dataHandler.cpp.o.d"
+  "/home/vboxuser/SysMonitor_TeamAlpha/Client_cmake/src/main.cpp" "CMakeFiles/client_cmake.dir/src/main.cpp.o" "gcc" "CMakeFiles/client_cmake.dir/src/main.cpp.o.d"
+  "/home/vboxuser/SysMonitor_TeamAlpha/Client_cmake/src/socketHandler.cpp" "CMakeFiles/client_cmake.dir/src/socketHandler.cpp.o" "gcc" "CMakeFiles/client_cmake.dir/src/socketHandler.cpp.o.d"
   )
 
 # Targets to which this target links.
