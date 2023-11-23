@@ -11,7 +11,34 @@
 namespace asio = boost::asio; 
 //using namespace boost::asio;
 using namespace std;
+using namespace boost::asio;
+using ip::tcp;
+ 
+
+vector<string> whitelist = {
+    "192.168.1.100", // Add your whitelisted IP addresses here
+    "192.168.1.101",
+    "10.11.246.63"
+};
+ 
+// Function to check if the client's IP address is whitelisted
+bool isWhitelisted(const string& clientAddress) {
+    for (const string& address : whitelist) {
+        if (clientAddress == address) {
+            return true;
+        }
+    }
+    return false;
+}
 void handleClient(asio::ip::tcp::socket clientSocket, sql::Connection *dbConnection) {
+    boost::asio::ip::tcp::endpoint remoteEndpoint = clientSocket.remote_endpoint();
+    std::string clientAddress = remoteEndpoint.address().to_string();
+ 
+    // Check if the client's IP address is whitelisted
+    if (!isWhitelisted(clientAddress)) {
+        std::cout << "Connection from non-whitelisted IP: " << clientAddress << " denied." << std::endl;
+        return;
+    }
     try {
         char buffer[4096];
         while (true) {

@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/client_cmake.dir/src/main.cpp.o CMakeFiles/client_cmake.dir/src/socketHandler.cpp.o CMakeFiles/client_cmake.dir/src/dataHandler.cpp.o CMakeFiles/client_cmake.dir/src/Logger.cpp.o -o client_cmake 

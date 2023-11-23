@@ -1,0 +1,22 @@
+[
+{
+  "directory": "/home/vboxuser/SysMonitor_TeamAlpha/build",
+  "command": "/usr/bin/c++  -I/home/vboxuser/SysMonitor_TeamAlpha/Client_cmake/src -g -std=gnu++11 -o CMakeFiles/client_cmake.dir/src/main.cpp.o -c /home/vboxuser/SysMonitor_TeamAlpha/Client_cmake/src/main.cpp",
+  "file": "/home/vboxuser/SysMonitor_TeamAlpha/Client_cmake/src/main.cpp"
+},
+{
+  "directory": "/home/vboxuser/SysMonitor_TeamAlpha/build",
+  "command": "/usr/bin/c++  -I/home/vboxuser/SysMonitor_TeamAlpha/Client_cmake/src -g -std=gnu++11 -o CMakeFiles/client_cmake.dir/src/socketHandler.cpp.o -c /home/vboxuser/SysMonitor_TeamAlpha/Client_cmake/src/socketHandler.cpp",
+  "file": "/home/vboxuser/SysMonitor_TeamAlpha/Client_cmake/src/socketHandler.cpp"
+},
+{
+  "directory": "/home/vboxuser/SysMonitor_TeamAlpha/build",
+  "command": "/usr/bin/c++  -I/home/vboxuser/SysMonitor_TeamAlpha/Client_cmake/src -g -std=gnu++11 -o CMakeFiles/client_cmake.dir/src/dataHandler.cpp.o -c /home/vboxuser/SysMonitor_TeamAlpha/Client_cmake/src/dataHandler.cpp",
+  "file": "/home/vboxuser/SysMonitor_TeamAlpha/Client_cmake/src/dataHandler.cpp"
+},
+{
+  "directory": "/home/vboxuser/SysMonitor_TeamAlpha/build",
+  "command": "/usr/bin/c++  -I/home/vboxuser/SysMonitor_TeamAlpha/Client_cmake/src -g -std=gnu++11 -o CMakeFiles/client_cmake.dir/src/Logger.cpp.o -c /home/vboxuser/SysMonitor_TeamAlpha/Client_cmake/src/Logger.cpp",
+  "file": "/home/vboxuser/SysMonitor_TeamAlpha/Client_cmake/src/Logger.cpp"
+}
+]
